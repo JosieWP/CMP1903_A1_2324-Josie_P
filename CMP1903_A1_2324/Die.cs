@@ -15,7 +15,10 @@ namespace CMP1903_A1_2324
         public int RollValue => Roll();
 
         //Method
-
+        /// <summary>
+        /// returns a random value 
+        /// </summary>
+        /// <returns>integer bewtween 1-6</returns>
         private int Roll() 
         { 
             Random rnd = new Random();

@@ -11,6 +11,10 @@ namespace CMP1903_A1_2324
         public int rollSum;
        
         //Methods
+        /// <summary>
+        /// creates 3 objects from die class, then 'rolls' them
+        /// </summary>
+        /// <returns>integers equaling the sum of the 3 rolled die objects</returns>
         public int DieRollAndSum()
         {
             //Creates three Die Objects

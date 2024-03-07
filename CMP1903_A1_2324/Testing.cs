@@ -12,6 +12,10 @@ namespace CMP1903_A1_2324
     {                           
         //Method
         //Creating a method to check the Die class output
+        /// <summary>
+        /// creates a die object and a list of expected die values, then compares the rolled die values
+        /// in the list of expected values to verify
+        /// </summary>
         public void TestingDieValue()
         {
             //Creating a list of expected outputs
@@ -28,9 +32,13 @@ namespace CMP1903_A1_2324
             
         }
         //Creating a method to test the Game class
+        /// <summary>
+        /// creates a game object and a list of expected game outputs, then compares the game value's
+        /// output to the expected outputs for verification
+        /// </summary>
         public void TestingGameValues()
         {
-            //Creating a list the the Game class' expected outputs
+            //Creating a list of the Game class' expected outputs
             int[] checkGame = { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 };
             //Creates a Game object for testing
             Game testGame = new Game();
